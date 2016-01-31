@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D06CCC1C5B064000E7C29F /* Retro Beat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03D06CCB1C5B064000E7C29F /* Retro Beat.mp3 */; };
 		891949EA1C5969C40048237E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891949E91C5969C40048237E /* AppDelegate.swift */; };
 		891949EC1C5969C40048237E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 891949EB1C5969C40048237E /* GameScene.sks */; };
 		891949EE1C5969C40048237E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891949ED1C5969C40048237E /* GameScene.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D06CCB1C5B064000E7C29F /* Retro Beat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Retro Beat.mp3"; sourceTree = "<group>"; };
 		891949E61C5969C40048237E /* FlappyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891949E91C5969C40048237E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		891949EB1C5969C40048237E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				89194A1D1C596BC10048237E /* explosion.wav */,
 				89194A1E1C596BC10048237E /* music.m4a */,
 				89194A1F1C596BC10048237E /* PlayerExplosion.sks */,
+				03D06CCB1C5B064000E7C29F /* Retro Beat.mp3 */,
 				89194A201C596BC10048237E /* spark.png */,
 			);
 			name = Content;
@@ -262,6 +265,7 @@
 				89194A251C596BC10048237E /* spark.png in Resources */,
 				89194A221C596BC10048237E /* explosion.wav in Resources */,
 				89194A231C596BC10048237E /* music.m4a in Resources */,
+				03D06CCC1C5B064000E7C29F /* Retro Beat.mp3 in Resources */,
 				89194A211C596BC10048237E /* coin.wav in Resources */,
 				891949EC1C5969C40048237E /* GameScene.sks in Resources */,
 				891949F81C5969C40048237E /* LaunchScreen.storyboard in Resources */,
@@ -520,6 +524,7 @@
 				89194A141C5969C40048237E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89194A151C5969C40048237E /* Build configuration list for PBXNativeTarget "FlappyCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				89194A171C5969C40048237E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89194A181C5969C40048237E /* Build configuration list for PBXNativeTarget "FlappyCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				89194A1A1C5969C40048237E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
